@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+}
+.wrapper {
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.content-container-1 {
+    margin: auto;
+}
+#logo {
+    padding-top: 14px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#thank-you {
+    width: 100%;
+    height: 802px;
+    background-image: url("../images/background.jpg");
+}
+#thank-you:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 2;
+    top: 0;
+    width: 100%;
+    height: 802px;
+    z-index: 1;
+    background: rgba(28, 37, 65, 0.9);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.content-container-1 {
+    z-index: 2;
+    position: relative;
+}
+h1 {
+    font-size: 151px;
+    margin-right: 33px;
+    font-weight: 100;
+    padding-top: 27px;
+    letter-spacing: 0px;
+    word-spacing: -9px;
+}
+.content-container-1 p {
+    color: white;
+    font-size: 19.05pt;
+    margin: -66px auto 0px auto;
+    width: 1066px;
+    letter-spacing: 0;
+    word-spacing: 0px;
+    line-height: 30px;
+}
+.download-button {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 79px auto;
+    height: 45px;
+    width: 281px;
+    background-color: rgb(79, 221, 202);
+}
+a.btn {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    margin-left: 0px;
+    word-spacing: 4px;
+    text-decoration: none;
+}
+.section-wrapper-2 {
+    margin-top: 174px;
+    color: black;
+    background-color: rgb(241, 242, 242);
+    padding-bottom: 10px;
+}
+.content-container-2 {
+    padding-bottom: 10px;
+    padding-top: 46px;
+    margin: 0px auto;
+}
+.grid {
+    display: flex;
+    margin: 72px 15% 30px 15%;
+}
+.content-container-2 > h2 {
+    font-size: 49px;
+    margin-left: 1px;
+}
+.content-container-2 > p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(186, 187, 189);
+    margin: -17px auto;
+    width: 699px;
+    word-spacing: 1px;
+    line-height: 30px;
+}
+.center {
+    margin: auto;
+}
+.column {
+    margin: 0 5px;
+    width: 90%;
+}
+.read-more-button {
+    padding: 16px 0px 14px 0px;
+    margin: 109px auto 40px 11px;
+    height: 30px;
+    width: 145px;
+    background-color: rgb(79, 221, 202);
+}
+.read-more-button > a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21pxpx;
+}
+.column-content {
+    padding: 14px 25px;
+    margin-top: -5px;
+    background-color: white;
+}
+.column > img {
+    width: 100%;
+    height: 43%;
+    position: relative;
+}
+@media screen and (max-width: 840px) {
+    .grid {
+        display: block;
+    }
+    .column {
+        width: 100%;
+        margin: 10px;
+    }
+    .content-container-1 p {
+        width: auto;
+    }
+    .content-container-2 > p {
+        width: 100%;
+    }
+}
+.column-content > h3 {
+    font-size: 25px;
+}
+.column-content > p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    overflow: hidden;
+}
+.image-text {
+    height: 3em;
+    line-height: 29px;
+    color: rgb(186, 187, 189);
+    font-family: 'Montserrat', sans-serif;
+}
