@@ -7,6 +7,7 @@ body {
     color: white;
     font-family: 'Playfair Display', serif;
 }
+/*First section started*/
 .content-container-1 {
     margin: auto;
 }
@@ -80,6 +81,8 @@ a.btn {
     word-spacing: 4px;
     text-decoration: none;
 }
+/*First section finished*/
+/*Second Section Stared*/
 .section-wrapper-2 {
     margin-top: 174px;
     color: black;
@@ -91,6 +94,7 @@ a.btn {
     padding-top: 46px;
     margin: 0px auto;
 }
+/*Grid Started*/
 .grid {
     display: flex;
     margin: 72px 15% 30px 15%;
@@ -167,3 +171,5 @@ a.btn {
     color: rgb(186, 187, 189);
     font-family: 'Montserrat', sans-serif;
 }
+/*Grid-finished*/
+/*Second Section finished*/
