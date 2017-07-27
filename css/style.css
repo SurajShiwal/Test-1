@@ -48,9 +48,9 @@ body {
 }
 h1 {
     font-size: 151px;
-    margin-right: 33px;
+    margin:auto ;
     font-weight: 100;
-    padding-top: 27px;
+    padding: 76px 0px 124px;
     letter-spacing: 0px;
     word-spacing: -9px;
 }
@@ -71,6 +71,11 @@ h1 {
     width: 281px;
     background-color: rgb(79, 221, 202);
 }
+.download-button:hover
+{
+    background-color: rgba(79, 221, 202,0.7);
+    cursor: pointer;
+}
 a.btn {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -84,10 +89,10 @@ a.btn {
 /*First section finished*/
 /*Second Section Stared*/
 .section-wrapper-2 {
-    margin-top: 174px;
+    margin-top: 178px;
     color: black;
     background-color: rgb(241, 242, 242);
-    padding-bottom: 10px;
+    
 }
 .content-container-2 {
     padding-bottom: 10px;
@@ -97,7 +102,7 @@ a.btn {
 /*Grid Started*/
 .grid {
     display: flex;
-    margin: 72px 15% 30px 15%;
+    margin: 72px 10% 88px 10%;
 }
 .content-container-2 > h2 {
     font-size: 49px;
@@ -116,7 +121,13 @@ a.btn {
 }
 .column {
     margin: 0 5px;
-    width: 90%;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+   
+}
+.column:hover
+{
+    box-shadow: 6px 72px 7px #888888;
 }
 .read-more-button {
     padding: 16px 0px 14px 0px;
@@ -125,17 +136,27 @@ a.btn {
     width: 145px;
     background-color: rgb(79, 221, 202);
 }
+.read-more-button:hover {
+
+        background-color: rgba(79, 221, 202,0.7);
+        cursor: pointer;
+
+    }
 .read-more-button > a {
     text-decoration: none;
     color: white;
     font-style: italic;
     font-weight: bold;
-    font-size: 21pxpx;
+    font-size: 21px;
 }
 .column-content {
     padding: 14px 25px;
     margin-top: -5px;
     background-color: white;
+}
+.image-title
+{
+    height: auto;
 }
 .column > img {
     width: 100%;
@@ -150,26 +171,84 @@ a.btn {
         width: 100%;
         margin: 10px;
     }
+    .content-container-1 > h1
+   {
+    font-size: 18vw;
+   }
     .content-container-1 p {
         width: auto;
+         font-size: 3.6vw;
     }
     .content-container-2 > p {
         width: 100%;
     }
+    .image-text {
+    height: 97px;
+    font-size: 3vw;
 }
-.column-content > h3 {
-    font-size: 25px;
+.read-more-button
+{
+        margin: auto auto auto 11px;
 }
+.content-title
+{
+    font-size: 5vw;
+}
+.column:hover
+{
+    box-shadow: none;
+}
+}
+    
+@media screen and (max-width: 756px)
+{
+
+.download-button
+{
+    height: 42px;
+    width: 51%;
+}
+
+.section-wrapper-2
+{
+    margin-top: 8%;
+}
+}
+@media screen and (max-width: 839px) and (min-width: 150px)
+{
+    .section-wrapper-2 {
+    margin-top: 721px;
+    position: absolute;
+    top: 81px;
+}
+}
+
 .column-content > p {
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
     overflow: hidden;
 }
+
 .image-text {
-    height: 3em;
+    height: 153px;
     line-height: 29px;
     color: rgb(186, 187, 189);
     font-family: 'Montserrat', sans-serif;
 }
+@media screen and (max-width: 470px)
+{
+    a.btn
+    {
+        font-size: 4vw;
+    }
+}
 /*Grid-finished*/
 /*Second Section finished*/
+footer
+{
+    padding-top: 10px;
+    position: relative;
+    bottom: 0;
+    color: black;
+    background-color: rgb(241, 242, 242);
+}
